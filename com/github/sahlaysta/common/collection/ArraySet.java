@@ -162,11 +162,9 @@ public class ArraySet<E>
 	@Override
 	public boolean addAll(Collection<? extends E> c) {
 		boolean modified = false;
-		for (E e: c) {
-			add(e);
-			if (!modified)
+		for (E e: c)
+			if (add(e) && !modified)
 				modified = true;
-		}
 		return modified;
 	}
 

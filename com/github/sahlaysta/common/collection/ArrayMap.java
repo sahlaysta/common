@@ -390,9 +390,7 @@ public class ArrayMap<K, V>
 	 * @see ArrayList#iterator() */
 	@Override
 	public Set<Map.Entry<K, V>> entrySet() {
-		if (entrySet == null)
-			entrySet = new EntrySet();
-		return entrySet;
+		return entrySet == null ? entrySet = new EntrySet() : entrySet;
 	}
 	
 	//the entrySet() class
