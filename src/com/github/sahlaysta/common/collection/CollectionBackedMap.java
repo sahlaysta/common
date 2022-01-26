@@ -233,7 +233,13 @@ public final class CollectionBackedMap {
 		//constructor
 		private final K key;
 		private V value;
-		private CBMEntry(K key, V value) {
+		/** Creates a new {@link CBMEntry} with
+		 * the specified key-value-pair.
+		 * @param key the key associated with
+		 * the key-value-pair
+		 * @param value the value associated with
+		 * the key-value-pair */
+		public CBMEntry(K key, V value) {
 			this.key = key;
 			this.value = value;
 		}
@@ -607,7 +613,7 @@ public final class CollectionBackedMap {
 				Iterator<CBMEntry<K, V>> it = bc.iterator();
 				while (it.hasNext()) {
 					CBMEntry<K, V> e = it.next();
-					if (e.key.equals(o)) {
+					if (m.compareKeyToObj(e.key, o)) {
 						it.remove();
 						return true;
 					}

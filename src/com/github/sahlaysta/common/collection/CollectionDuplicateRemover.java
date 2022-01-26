@@ -29,6 +29,9 @@ public final class CollectionDuplicateRemover {
 		
 		/** Compares the two specified elements and
 		 * returns {@code true} if they are duplicates.
+		 * It is possible for both arguments to be the
+		 * same object, and it is also possible that one
+		 * or both are {@code null}.
 		 * @return {@code true} if the two specified
 		 * elements are duplicates
 		 * @param t1 the first element to be compared
