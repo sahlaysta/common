@@ -227,8 +227,8 @@ public final class CollectionBackedMap {
 	 * @see CollectionBackedMap
 	 * */
 	public static class CBMEntry<K, V> implements Cloneable, java.io.Serializable {
-
-		private static final long serialVersionUID = 5241359499651961760L;
+		
+		private static final long serialVersionUID = 7133150580319061578L;
 		
 		//constructor
 		private final K key;
@@ -342,7 +342,7 @@ public final class CollectionBackedMap {
 	private static final class CBM<K, V>
 			extends AbstractMap<K, V>
 			implements java.io.Serializable {
-
+		
 		private static final long serialVersionUID = 2253057114744262697L;
 		
 		//Constructor
