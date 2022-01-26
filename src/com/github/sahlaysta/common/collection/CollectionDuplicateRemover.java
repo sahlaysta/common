@@ -25,7 +25,7 @@ public final class CollectionDuplicateRemover {
 	 * 
 	 * @param <T> the element type of the two elements being compared
 	 * @see #areDuplicates(Object, Object) */
-	public interface DuplicatePredicate<T> {
+	public static interface DuplicatePredicate<T> {
 		
 		/** Compares the two specified elements and
 		 * returns {@code true} if they are duplicates.
