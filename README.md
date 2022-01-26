@@ -1,2 +1,2 @@
 # common
-A Java general purpose library. Work in progress.
+A Java general purpose library full of my ideas.
