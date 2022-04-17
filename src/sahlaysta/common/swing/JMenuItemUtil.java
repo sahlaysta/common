@@ -1,4 +1,4 @@
-package com.github.sahlaysta.common.swing;
+package sahlaysta.common.swing;
 
 import java.awt.Color;
 import java.awt.Component;

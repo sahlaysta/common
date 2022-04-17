@@ -1,4 +1,4 @@
-package com.github.sahlaysta.common.collection;
+package sahlaysta.common.collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
