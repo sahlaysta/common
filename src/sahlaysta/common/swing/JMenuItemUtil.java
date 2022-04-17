@@ -21,7 +21,7 @@ import javax.swing.plaf.basic.BasicMenuItemUI;
 
 /** A collection of cross-platform utility
  * methods for Swing JMenuItems.
- * @author porog */
+ * @author sahlaysta */
 public final class JMenuItemUtil {
 	
 	private JMenuItemUtil() {}

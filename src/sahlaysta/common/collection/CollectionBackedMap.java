@@ -38,7 +38,7 @@ import java.util.function.Function;
  * <p>Collection backed maps are serializable if the
  * backing collection is serializable.
  * 
- * @author porog
+ * @author sahlaysta
  * 
  * @see CollectionBackedMap#newMap(Collection)
  * @see CollectionBackedMap#newMap(Collection, CBMModel)

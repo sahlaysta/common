@@ -14,7 +14,7 @@ import java.util.Objects;
  * that collection does not support element removal (modification
  * of elements).
  * 
- * @author porog
+ * @author sahlaysta
  * */
 public final class CollectionDuplicateRemover {
 
